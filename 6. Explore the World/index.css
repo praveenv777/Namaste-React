@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --text-color: #181717;
+    --bg-color: #fff;
+  }
+.Header{
+    width: 100vw;
+    height: 80px;
+    z-index: 999;
+    background-color: var(--bg-color);
+    position: fixed;
+    color: var(--text-color);
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    display: flex;
+    overflow-y: hidden;
+    box-shadow: -2px 7px 5px -6px rgba(0,0,0,.61)
+}
+.nav-items > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+.nav-items>ul>li{
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #0b0b0b;
+}
+.nav-items>ul>li:hover{
+    color: #ffffff;
+    background-color: #d97919;
+}
+.nav-items > ul > li .logout-btn,
+.nav-items > ul > li .login-btn {
+  color: var(--text-color);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-weight: 700;
+  background: Transparent no-repeat;
+}
+.nav-items > ul > li .logout-btn:hover,
+.nav-items > ul > li .login-btn:hover {
+    background-color: #d97919;
+    color: #ffffff;
+    background-size: auto;
+}
+.head-logo{
+    width: 25%;
+    padding: 5px;
+}
+.restuarant-card{
+        width: 240px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 20px;
+        padding: 10px;
+        box-shadow: -1px 5px 10px 5px rgba(112,112,112,.2);
+    }
+    
+.restuarant-card:hover {
+        transform: scale(1.03)
+    }
+.restuarant-card>img{
+    width: 100%;
+}
+.restuarant-card>span{
+    display: flex;
+    justify-content: space-between;
+}
+.Restuarant-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+.Search-container{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 20px;
+    display: flex;
+}
+.Search-container .search-text{
+  width: 40%;
+  box-sizing: border-box;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 14px 15px 14px 20px;
+  border: 1px solid #aabcca;
+  border-right: 0;
+  color: #0b0b0b;
+  outline: none;
+}
+.Search-container .search-button{
+    cursor: pointer;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+    margin-left: -4px;
+    padding: 15px 22px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.08);
+} 
