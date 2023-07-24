@@ -8,3 +8,23 @@
 ## 📚 [_Chapter 05 - Let's get Hooked](./5.%20Let's%20get%20Hooked)
 ## 📚 [_Chapter 06 - Explore the World](./6%20Explore%20the%20World)
 ## 📚 [_Chapter 07 - Finding the path](./7%20Finding%20the%20path)
+## 🔥 Clone this Repository
+You need to write the following commands on the terminal screen(in vscode) so that you can run this project locally.
+
+```bash
+  git clone "https://github.com/praveenv777/Namaste-React.git"
+```
+Go to the project directory
+
+```bash
+  cd "Namaste React"
+```
+Install dependencies
+```bash
+  npm install
+```
+Start the server
+```bash
+  npm run start
+```
+
